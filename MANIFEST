@@ -1,0 +1,11 @@
+Build.PL
+Changes
+MANIFEST
+README
+lib/Device/KOBOeReader.pm
+examples/finish-book.pl
+t/00-load.t
+t/pod-coverage.t
+t/pod.t
+Makefile.PL
+META.yml

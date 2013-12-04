@@ -1,0 +1,62 @@
+Device-KOBOeReader
+
+WARNING!!!
+
+This module was implemented by poking through the UNDOCUMENTED
+innards of a single device. As a result, this code might not work
+for you, or even cause your device to blow up! Backup your data
+and use at your own risk.
+
+DESCRIPTION
+
+If you own a KOBO eBook reader, you probably know that there's no
+easy way to get rid of a book on your "I'm reading" list of books,
+aside from finishing it (time consuming) or other methods that
+at first glance seem complicated.
+
+This module was born out of need to remove some of the (boring)
+books of my "I'm reading" list, and that's pretty much the only useful
+thing it does right now. If you have any extra ideas, submit them as
+a bug tickets.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Build.PL
+	./Build
+	./Build test
+	./Build install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc Device::KOBOeReader
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Device-KOBOeReader
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/Device-KOBOeReader
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Device-KOBOeReader
+
+    Search CPAN
+        http://search.cpan.org/dist/Device-KOBOeReader/
+
+
+LICENSE AND COPYRIGHT
+
+Copyright (C) 2010 Zoffix Znet
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
+
